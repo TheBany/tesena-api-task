@@ -56,3 +56,11 @@ Example response:
   }
 }
 ```
+
+## Test coverage
+- GET / returns 200 and expected response body
+- POST /discount returns correct calculated values
+- POST /discount returns 422 for invalid discount percent
+- POST /password-check returns `is_strong: true` for a strong password
+- POST /password-check returns `is_strong: false` for a weak password
+- POST /password-check returns 422 for empty password
