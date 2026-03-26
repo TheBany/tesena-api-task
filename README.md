@@ -64,3 +64,9 @@ Example response:
 - POST /password-check returns `is_strong: true` for a strong password
 - POST /password-check returns `is_strong: false` for a weak password
 - POST /password-check returns 422 for empty password
+
+## Postman collection
+Repository also contains a Postman collection for manual API testing.
+
+Location:
+`postman/tesena-api.postman_collection.json`
