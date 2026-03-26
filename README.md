@@ -2,6 +2,12 @@
 
 Simple API created in FastAPI with integration tests in pytest.
 
+## Setup
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
 ## Run API
 ```bash
 fastapi dev main.py
