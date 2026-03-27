@@ -3,6 +3,10 @@
 Simple API created in FastAPI with integration tests in pytest.
 
 ## Setup
+
+Requirements:
+- python3.1O+ installed
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate
